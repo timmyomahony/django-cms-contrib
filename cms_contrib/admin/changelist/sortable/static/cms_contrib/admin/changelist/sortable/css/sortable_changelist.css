@@ -1,0 +1,33 @@
+.draggable{
+	width: 100%;
+	clear: both;
+	overflow: auto;
+	position:relative;
+}
+.draggable .move-cursor{
+    clear: both;
+    overflow: auto;
+}
+.draggable .move-cursor{
+	float: left;
+    background-image:url(../img/cursor-move.png);
+    background-position:center;
+    background-repeat:no-repeat;
+    height: 16px;
+    width: 16px;
+}
+.draggable .hover-text{
+    position:absolute;
+    left:25px;
+    display:none;
+}
+.ui-sortable{ /* Container */
+	
+}
+.ui-sortable-helper{ /* Row */
+	
+}
+.ui-state-highlight{ /* Placeholder */
+	display:table-row !important;
+	background-color:black;
+}

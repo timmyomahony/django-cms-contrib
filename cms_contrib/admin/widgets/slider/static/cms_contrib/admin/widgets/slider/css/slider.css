@@ -1,0 +1,26 @@
+.admin_slider_wrapper{
+	width:300px;
+	float:left;
+	position: relative;
+}
+.admin_slider{
+	margin: 5px 0 10px 0;
+}
+.admin_slider_value{
+	width: 300px;
+	position: absolute;
+	right:-315px;
+	top:3px;
+	font-weight:bold;
+}
+.admin_slider_details .min,
+.admin_slider_details .max{
+	font-size: 98%;
+	color:#aaa;
+}
+.admin_slider_details .min{
+	float: left;
+}
+.admin_slider_details .max{
+	float: right;
+}
